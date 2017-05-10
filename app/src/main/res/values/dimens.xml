@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="item_height">60dp</dimen>
+    <dimen name="leftPadding">25dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="paddingCardBottom">16dp</dimen>
+    <dimen name="paddingCardLeft">16dp</dimen>
+    <dimen name="paddingCardRight">16dp</dimen>
+    <dimen name="paddingCardTop">16dp</dimen>
+    <dimen name="nestedScrolOverLapTOp">69dp</dimen>
+    <dimen name="CallapsingMArginEnd">64dp</dimen>
+    <dimen name="CollapsingMarginStart">48dp</dimen>
+    <dimen name="cardsNameSize">16dp</dimen>
+    <dimen name="circleIMageViewHeight">50dp</dimen>
+    <dimen name="circleMarginTop">15dp</dimen>
+    <dimen name="circleMarginLeft">15dp</dimen>
+    <dimen name="circleImageWitdh">50dp</dimen>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<data>
+		<variable
+			name="cardsModel"
+			type="cz.matej.clashroyaleapp.viewmodel.ItemCardsViewModel" />
+
+	</data>
+	<RelativeLayout
+		android:id="@+id/row_cards"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/item_height"
+		android:orientation="horizontal"
+		android:onClick="@{cardsModel.onItemClick}">
+
+
+		<de.hdodenhof.circleimageview.CircleImageView
+			android:id="@+id/circle"
+			android:layout_width="@dimen/circleImageWitdh"
+			android:layout_height="@dimen/circleIMageViewHeight"
+			android:layout_marginLeft="@dimen/circleMarginLeft"
+			android:layout_marginTop="@dimen/circleMarginTop"
+			app:civ_border_width="3dp"
+			app:civ_border_color="@color/civ_border"
+			app:imageUrl="@{cardsModel.imageUrl}"
+			/>
+
+
+		<TextView
+			android:id="@+id/cardsName"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:layout_alignLeft="@+id/circle"
+			android:layout_alignStart="@+id/circle"
+			android:gravity="center"
+
+			android:textSize="@dimen/cardsNameSize"
+			android:textStyle="bold"
+			android:text="@{cardsModel.name}" />
+
+	</RelativeLayout>
+</layout>
