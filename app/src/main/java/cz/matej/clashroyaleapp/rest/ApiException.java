@@ -1,8 +1,5 @@
 package cz.matej.clashroyaleapp.rest;
 
-/**
- * Created by Jirka Helmich on 09.05.17.
- */
 
 public class ApiException extends Throwable
 {

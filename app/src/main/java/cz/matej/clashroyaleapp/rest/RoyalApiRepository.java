@@ -2,6 +2,7 @@ package cz.matej.clashroyaleapp.rest;
 
 import android.support.annotation.NonNull;
 
+import cz.matej.clashroyaleapp.db.DatabaseManager;
 import cz.matej.clashroyaleapp.model.CardEntity;
 
 import java.util.List;

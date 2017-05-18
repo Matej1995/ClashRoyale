@@ -15,8 +15,7 @@ import cz.matej.clashroyaleapp.viewmodel.ItemCardsViewModel;
 import java.util.List;
 
 
-public class CardsAdapter extends RecyclerView.Adapter<CardsAdapter.CardsAdapterViewHolder>
-{
+public class CardsAdapter extends RecyclerView.Adapter<CardsAdapter.CardsAdapterViewHolder> {
 
 	public static CardsAdapter newInstance(@NonNull final List<CardEntity> cardsList)
 	{

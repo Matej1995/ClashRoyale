@@ -13,8 +13,7 @@ import cz.matej.clashroyaleapp.model.CardEntity;
 import cz.matej.clashroyaleapp.viewmodel.DetailCardViewModel;
 
 
-public class DetailCardActivity extends AppCompatActivity
-{
+public class DetailCardActivity extends AppCompatActivity {
 
 	private static final String ARG_CARD = "ARG_CARD";
 
