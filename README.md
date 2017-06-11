@@ -4,3 +4,5 @@ Libraries which I use in this project:
   3) Dagger 2
   4) RecyclerView
   5) Glide
+  6) Data Binding
+  7) MvvM Architecture 
