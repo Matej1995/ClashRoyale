@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ClashRoyaleApp-master.iml" filepath="$PROJECT_DIR$/ClashRoyaleApp-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ClashRoyale.iml" filepath="$PROJECT_DIR$/.idea/ClashRoyale.iml" />
+      <module fileurl="file://C:\Users\Fanda\AndroidStudioProjects\ClashRoyale\ClashRoyaleApp-master.iml" filepath="C:\Users\Fanda\AndroidStudioProjects\ClashRoyale\ClashRoyaleApp-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Fanda\AndroidStudioProjects\ClashRoyale\app\app.iml" filepath="C:\Users\Fanda\AndroidStudioProjects\ClashRoyale\app\app.iml" />
     </modules>
   </component>
 </project>

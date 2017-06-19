@@ -24,7 +24,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                     COL_1_ID + " Integer primary key autoincrement, " +
                     COL_2_NAME + " Name " +
                     COL_3_RARITY + " Rarity " +
-                    COL_4_TYPE + " Type " + ")";
+                    COL_4_TYPE + " Type " + ");";
 
 
     public DatabaseHelper(Context context) {

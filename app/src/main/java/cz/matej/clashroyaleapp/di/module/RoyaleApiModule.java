@@ -1,5 +1,6 @@
 package cz.matej.clashroyaleapp.di.module;
 
+import cz.matej.clashroyaleapp.rest.ApiConfig;
 import cz.matej.clashroyaleapp.rest.RoyalApi;
 import cz.matej.clashroyaleapp.di.RoyaleScope;
 
@@ -26,7 +27,7 @@ public class RoyaleApiModule
 	public Retrofit retrofit()
 	{
 		return new Retrofit.Builder()
-				.baseUrl("http://www.clashapi.xyz")
+				.baseUrl(ApiConfig.BASE_URL)
 				.addConverterFactory(GsonConverterFactory.create())
 				.addCallAdapterFactory(RxJava2CallAdapterFactory.create())
 				.build();

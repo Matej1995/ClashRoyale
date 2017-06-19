@@ -6,6 +6,7 @@ import android.view.View;
 
 import cz.matej.clashroyaleapp.activity.DetailCardActivity;
 import cz.matej.clashroyaleapp.model.CardEntity;
+import cz.matej.clashroyaleapp.rest.ApiConfig;
 
 
 public class ItemCardsViewModel extends BaseObservable
@@ -36,7 +37,7 @@ public class ItemCardsViewModel extends BaseObservable
 
 	public String getImageUrl()
 	{
-		return "http://www.clashapi.xyz/images/cards/" + getIdName() + ".png";
+		return ApiConfig.URL_IMAGE + getIdName() + ".png";
 	}
 
 

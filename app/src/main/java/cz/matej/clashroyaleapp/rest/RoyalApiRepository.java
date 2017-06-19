@@ -8,7 +8,9 @@ import cz.matej.clashroyaleapp.model.CardEntity;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import io.reactivex.SingleObserver;
 import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 import retrofit2.Response;
 
@@ -41,8 +43,12 @@ public class RoyalApiRepository
 				.observeOn(AndroidSchedulers.mainThread())
 				.subscribeOn(Schedulers.io())
 				.timeout(30, TimeUnit.SECONDS)
-				.subscribe(new BaseCallback<Response<List<CardEntity>>>()
+				.subscribe(new SingleObserver<Response<List<CardEntity>>>()
 				{
+					@Override
+					public void onSubscribe(Disposable d) {
+					}
+
 					@Override
 					public void onSuccess(Response<List<CardEntity>> response)
 					{

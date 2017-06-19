@@ -1,6 +1,5 @@
 package cz.matej.clashroyaleapp.fragment;
 
-import android.content.Context;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -62,7 +61,7 @@ public class CardsFragment extends Fragment implements ApiCallback<List<CardEnti
 	}
 
     private void initDatabase() {
-        databaseManager = new DatabaseManager(getActivity());
+        databaseManager = new DatabaseManager(getContext());
         databaseManager.open();
     }
 

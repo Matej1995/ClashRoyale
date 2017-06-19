@@ -36,10 +36,6 @@ public class FragmentViewModel extends BaseObservable{
         }
     }
 
-    private void fetchCards()
-    {
-        RoyalApiRepository royalApiRepository = RoyalApiRepository.getInstance(mApplicationComponent.getRoyalApi());
-       //  royalApiRepository.retrieveCards(callback);
-    }
+
 
 }
